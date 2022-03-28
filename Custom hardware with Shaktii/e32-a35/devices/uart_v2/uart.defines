@@ -1,0 +1,40 @@
+// slave_bound: 28 bytes
+// space-allocation: (R: reserved, U-Used)
+// 0x0: U U R R
+// 0x4: U R R R
+// 0x8: U R R R
+
+// Memory Map
+`define BaudReg     'h0		// 16-bit Register to change the baud-value of the UART.
+`define TxReg       'h4		// The 8-bit register to be written to send data out.
+`define RxReg       'h8		// The 8-bit register to read the incoming value.
+`define StatusReg   'hc		// The 8-bit register capturing the status of the rx/tx user side FIFOs
+                            // Bit 7: Break Error
+                            // Bit 6: Frame Error 
+                            // Bit 5: Overrun
+                            // Bit 4: Parity Error
+                            // Bit 3: Receiver Full
+                            // Bit 2: Receiver Not Empty
+                            // Bit 1: Transmitter Full
+                            // Bit 0: Transmitter Empty
+`define DelayReg    'h10  // 16-bit Register to control the delay in sending the data through tx
+`define ControlReg  'h14	// 16-bit Register to control various parameters of UART
+                            // Bits [10:5] : Character size 
+                            // Bits [4:3]  : Parity. 00-None, 01- Odd, 10- Even, 11-undefined
+                            // Bits [2:1]  : Stop bits.
+                                             //00: 1 Stop bit
+                                             //01: 1.5 Stop bits
+                                             //10: 2 Stop bits
+                            // Bit 0       : Reserved
+`define InterruptEn 'h18	// 8-bit Interrupt Enable register
+                            // Bit 7: Break Error Interrupt Enable
+                            // Bit 6: Frame Error Interrupt Enable
+                            // Bit 5: Overrun Interrupt Enable
+                            // Bit 4: Parity Error Interrupt Enable
+                            // Bit 3: Receiver Not Empty Interrupt Enable
+                            // Bit 2: Receiver Not Full Interrupt Enable
+                            // Bit 1: Transmitter Not Full Interrupt Enable
+                            // Bit 0: Transmission Done Interrupt Enable
+`ifdef IQC
+  `define IQ_cycles 'h1C    //8-bit register that indicates number of input qualification cycles
+`endif

@@ -1,0 +1,45 @@
+
+// slave_bound: 128 bytes
+    // space-allocation: (R: reserved, U-Used)
+    // 0x0 : U R R R R R R R  
+    // 0x8 : U R R R R R R R   
+    // 0x10: U R R R R R R R
+    // 0x18: U R R R R R R R
+    // 0x20: U R R R R R R R              
+    // 0x28: U U R R R R R R              
+    // 0x30: U R R R R R R R              
+    // 0x38: U R R R R R R R              
+    // 0x40: U R R R R R R R
+    // 0x48: U U R R R R R R
+    // 0x50: U R R R R R R R
+    // 0x58: U R R R R R R R
+    // 0x60: U R R R R R R R
+    // 0x68: U R R R R R R R
+    // 0x70: U U R R R R R R
+    // 0x78: U R R R R R R R
+
+
+
+`define DELAY 250
+`define SDR_RFSH_TIMER_W    12
+`define SDR_RFSH_ROW_CNT_W  3
+
+
+`define ACTPRE_DELAY 8'h0
+`define PREACT_DELAY 8'h8
+`define ACT_RW_DELAY 8'h10
+`define EN_SDRAM     8'h18
+`define MAX_REQ      8'h20   
+`define MODE_REG     8'h28
+`define CAS_LATNCY   8'h30
+`define AUTO_REFRESH 8'h38
+`define RECRY_DELAY  8'h40 
+`define RFRSH_TIMER  8'h48
+`define RFRSH_ROW_CNT 8'h50 
+`define SDR_INIT_DONE 8'h58
+`define SDR_WIDTH     8'h60
+`define SDR_COLBITS   8'h68
+`define SDR_SDIO_CTRL 8'h70
+`define SDR_CLK_DELAY 8'h78
+`define SDR_WRITE_DELAY 8'h80
+`define SDR_MEM_SEL   8'h88

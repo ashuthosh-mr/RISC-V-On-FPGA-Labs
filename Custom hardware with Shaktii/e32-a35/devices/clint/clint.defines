@@ -1,0 +1,16 @@
+// allotted space: 24 bytes
+// space-allocation: (R: reserved, U-Used)
+// 0x0: U R R R
+// 0x4: R R R R
+// 0x8: U U U U
+// 0XC: U U U U
+// 0X10:U U U U 
+// 0X14:U U U U 
+
+// Parameters
+`define msip_size 1	
+
+// Memory Map
+`define msipreg 'h0000		
+`define mtimecmpreg   'h4000		
+`define mtimereg   'hbff8	

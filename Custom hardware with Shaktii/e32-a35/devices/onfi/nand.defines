@@ -1,0 +1,12 @@
+`define LENGTH_RD_ER 8'h00
+`define TIMING_MODE  8'h08
+`define ADDR_WE      8'h10
+`define ADDR_RE      8'h18
+`define DIVWIDTH     8'd32
+
+`define Out_clock
+
+`define PAGE_LENGTH 0
+`define PADDR 32
+`define Reg_width 64
+`define USERSPACE 0

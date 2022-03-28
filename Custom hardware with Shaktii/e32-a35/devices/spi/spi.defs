@@ -1,0 +1,14 @@
+`define TXFIFO_DEPTH 20
+`define CR1     8'h00
+`define CR2     8'h04
+`define SR      8'h08
+`define DR1     8'h0C
+`define DR2     8'h10
+`define DR3     8'h14
+`define DR4	8'h18
+`define DR5	8'h1C
+`define CRCPR   8'h20
+`define RXCRCR  8'h24
+`define TXCRCR  8'h28
+
+

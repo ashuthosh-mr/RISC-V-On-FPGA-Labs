@@ -1,0 +1,18 @@
+// allotted space: 24 bytes
+// space-allocation: (R: reserved, U-Used)
+// 0x0: U U R R
+// 0x4: U R R R
+// 0x8: U R R R
+
+// Memory Map
+`define dir_reg 'h0
+`define dataout_reg 'h8
+`define drv0_reg 'h10
+`define drv1_reg 'h18
+`define drv2_reg 'h20
+`define addr_reg 'h28
+`define ppen_reg 'h30
+`define prg_reg 'h38
+`define puq_reg 'h40
+`define pwrupzhl_reg 'h48
+`define pwruppull_reg 'h50

@@ -1,0 +1,9 @@
+`define EXTEST 'h00
+`define IDCODE	'h01
+`define SAMPLE_PRELOAD 'h02
+`define DEBUG	'h08
+`define MBIST	'h09
+`define BYPASS 'h1f
+`define DTMCONTROL 'h10
+`define DMIACCESS 'h11
+`define IDCODEVALUE 32'h100039d3

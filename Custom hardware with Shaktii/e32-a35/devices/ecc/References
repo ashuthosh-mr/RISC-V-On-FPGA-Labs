@@ -1,0 +1,27 @@
+Here are the list of references that were used:
+
+1. NPTEL Course by Dr. Andrew Thangaraj
+https://www.youtube.com/playlist?list=PL5002EB7306694E7D
+
+2. Introduction to LDPC Codes by Sarah J Johnson
+http://sigpromu.org/sarah/SJohnsonLDPCintro.pdf
+
+3. Software for LDPC Codes
+This software was developed by one of the key persons involved with the development of irregular LDPC.
+https://www.cs.toronto.edu/~radford/ftp/LDPC-2012-02-11/index.html
+
+4. Reed Muller Code (IIT Gandhinagar) 
+https://www.youtube.com/watch?v=MVeqgsRdXUo
+
+5. Reed-Muller Error Correcting Code by Ben Cooke
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.208.440&rep=rep1&type=pdf
+
+6. Cpp code for generating all possible combinations
+https://www.geeksforgeeks.org/print-all-possible-combinations-of-r-elements-in-a-given-array-of-size-n/
+
+7. Hamming Codes by James Fiedler
+https://orion.math.iastate.edu/linglong/Math690F04/HammingCodes.pdf
+
+8. BCH Codes by Shan-Yuan Ho
+http://math.mit.edu/~shor/18.310/BCH.pdf
+

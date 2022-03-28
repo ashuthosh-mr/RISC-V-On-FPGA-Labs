@@ -1,0 +1,14 @@
+// allotted space: 12 bytes
+// space-allocation: (R: reserved, U-Used)
+// 0x0: U U R R
+// 0x4: U R R R
+// 0x8: U R R R
+
+// Parameters
+	`define PWMWIDTH 32
+
+// Memory Map
+`define PeriodReg 'h0		
+`define DutyReg   'h4		
+`define ControlReg   'h8	
+`define ClockReg 'hc

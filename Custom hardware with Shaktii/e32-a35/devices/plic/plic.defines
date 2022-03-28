@@ -1,0 +1,6 @@
+// allotted space:  bytes
+// space-allocation: (R: reserved, U-Used)
+// 0x0: U U R R
+// 0x4: U R R R
+// 0x8: U R R R
+

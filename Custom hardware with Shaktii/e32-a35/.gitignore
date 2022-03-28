@@ -1,0 +1,7 @@
+fpga_project
+bsv_build
+verilog
+*.jou
+
+*.log
+boot-code/outputs

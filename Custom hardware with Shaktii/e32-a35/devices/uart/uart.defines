@@ -1,0 +1,11 @@
+// slave_bound: 12 bytes
+// space-allocation: (R: reserved, U-Used)
+// 0x0: U U R R
+// 0x4: U R R R
+// 0x8: U R R R
+
+// Memory Map
+`define BaudReg     'h0		// 16-bit Register to change the baud-value of the UART.
+`define TxReg       'h4		// The 8-bit register to be written to send data out.
+`define RxReg       'h8		// The 8-bit register to read the incoming value.
+`define StatusReg   'hc		// The 4-bit register capturing the status of the rx/tx user side FIFOs

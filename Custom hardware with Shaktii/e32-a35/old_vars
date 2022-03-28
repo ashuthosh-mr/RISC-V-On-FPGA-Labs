@@ -1,0 +1,1 @@
+old_define_macros = -D Addr_space=21 -D RV32=True -D muldiv_fpga=True -D muldiv=True -D atomic=True -D compressed=True -D usertraps=True -D user=True -D debug=True -D bscan2e=True -D VERBOSITY=0 -D CORE_AXI4Lite=True -D MULSTAGES=2 -D DIVSTAGES=32 -D Counters=0 -D paddr=32 -D vaddr=32 -D PMPSIZE=2 -D resetpc=4096 -D causesize=6 -D DTVEC_BASE=16

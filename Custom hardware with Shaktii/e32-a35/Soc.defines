@@ -1,0 +1,121 @@
+`define Num_Masters 3
+`define Debug_master_num 0
+`define Mem_master_num 1
+`define Fetch_master_num 2
+
+`define Num_Slaves 10
+`define Memory_slave_num 0
+`define Memory2_slave_num 9
+`define Clint_slave_num 1
+`define Debug_slave_num 2
+`define PWMCluster_slave_num 3
+`define UARTCluster_slave_num 4
+`define SPICluster_slave_num 5
+`define MixedCluster_slave_num 6
+`define Boot_slave_num 7
+`define Err_slave_num 8
+
+`define DebugBase         'h0000_0010
+`define DebugEnd          'h0000_001F
+`define BootBase          'h0000_1000
+`define BootEnd           'h0000_2FFF
+`define UARTClusterBase   'h0001_1300
+`define UARTClusterEnd    'h0001_1540
+`define SPIClusterBase    'h0002_0000
+`define SPIClusterEnd     'h0002_01FF
+`define PWMClusterBase    'h0003_0000
+`define PWMClusterEnd     'h0003_05FF
+`define MixedClusterBase  'h0004_0000
+`define MixedClusterEnd   'h0004_15FF
+`define ClintBase         'h0200_0000
+`define ClintEnd          'h020B_FFFF
+`define MemoryBase        'h8000_0000
+`define MemoryEnd         'h8001_FFFF
+`define Memory2Base        'h8003_0000
+`define Memory2End         'h8003_FFFF
+
+// - PWM cluster
+`define PWMCluster_Num_Slaves 7
+`define PWMCluster_Num_Masters 1
+
+`define PWM0_slave_num 0
+`define PWM1_slave_num 1
+`define PWM2_slave_num 2
+`define PWM3_slave_num 3
+`define PWM4_slave_num 4
+`define PWM5_slave_num 5
+
+`define PWMCluster_err_slave_num 6
+
+`define PWM0Base     'h0003_0000
+`define PWM0End      'h0003_00FF
+`define PWM1Base     'h0003_0100
+`define PWM1End      'h0003_01FF
+`define PWM2Base     'h0003_0200
+`define PWM2End      'h0003_02FF
+`define PWM3Base     'h0003_0300
+`define PWM3End      'h0003_03FF
+`define PWM4Base     'h0003_0400
+`define PWM4End      'h0003_04FF
+`define PWM5Base     'h0003_0500
+`define PWM5End      'h0003_05FF
+
+// - SPI cluster
+`define SPICluster_Num_Slaves 3
+`define SPICluster_Num_Masters 1
+
+`define SPI0_slave_num 0
+`define SPI1_slave_num 1
+//`define SPI2_slave_num 1
+`define SPICluster_err_slave_num 2
+
+`define SPI0Base     'h0002_0000
+`define SPI0End      'h0002_00FF
+`define SPI1Base     'h0002_0100
+`define SPI1End      'h0002_01FF
+//`define SPI2Base     'h0002_0200
+//`define SPI2End      'h0002_02FF
+
+// - UART cluster
+`define UARTCluster_Num_Slaves 4
+`define UARTCluster_Num_Masters 1
+
+`define UART0_slave_num 0
+`define UART1_slave_num 1
+`define UART2_slave_num 2
+`define UARTCluster_err_slave_num 3
+
+`define UART0Base     'h0001_1300
+`define UART0End      'h0001_1340
+`define UART1Base     'h0001_1400
+`define UART1End      'h0001_1440
+`define UART2Base     'h0001_1500
+`define UART2End      'h0001_1540
+
+// - Mixed Cluster
+`define MixedCluster_Num_Slaves 7
+`define MixedCluster_Num_Masters 1
+
+`define I2C0_slave_num 0
+`define I2C1_slave_num 1
+`define PLIC_slave_num 2
+`define GPIO_slave_num 3
+`define XADC_slave_num 4
+`define Pinmux_slave_num 5
+`define MixedCluster_err_slave_num 6
+
+`define I2C0Base    'h0004_0000
+`define I2C0End     'h0004_00FF
+`define GPIOBase	  'h0004_0100
+`define GPIOEnd		  'h0004_01FF
+`define XADCBase    'h0004_1000
+`define XADCEnd     'h0004_13FF
+`define I2C1Base    'h0004_1400
+`define I2C1End     'h0004_14FF
+`define PinmuxBase      'h0004_1500
+`define PinmuxConfigReg 'h0004_1510
+`define PinmuxEnd       'h0004_15FF
+`define PLICBase	 'h0C00_0000
+`define PLICEnd	 'h0C01_001F
+
+
