@@ -46,9 +46,9 @@ Paste the following at the end of the file, save and close:
 
 Running a hello world program
 -----------------------------
-Open a new file with name hello.c:
+Open a new file(hello.c):
 
-    $ gedit hello.code
+    $ gedit hello.c
 
 Use the following code to print hello world and to print cycles taken to print hello world:
 

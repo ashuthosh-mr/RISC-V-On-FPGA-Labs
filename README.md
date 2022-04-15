@@ -15,3 +15,10 @@ This repository consists of the following:
   4. Design and packaging a custom IP(AXI peripheral) for the SoC.  
 
   5. Running a C code on Shakti microprocessor, that has our custom packaged IP with the SoC.  
+
+<br/>
+
+Contact
+-----
+Email: ashuthoshmr@pes.edu
+Website: https://sites.google.com/view/ashuthosh/home
