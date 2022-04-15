@@ -16,9 +16,11 @@ $ sudo apt-get install device-tree-compiler
 Download and install of Shakti RISC-V toolchain
 -----------------------------------------------
 Download the toolchain. This might take 10-15 minutes depending on the internet speed.  
+
       $ git clone --recursive https://gitlab.com/shaktiproject/software/shakti-tools.git
 
 Set the path variable with the path of shakti-tools downloaded in the previous step:
+
       $ SHAKTITOOLS=/home/user/path/to/shakti-tools
       $ export PATH=$PATH:$SHAKTITOOLS/bin
       $ export PATH=$PATH:$SHAKTITOOLS/riscv64/bin
@@ -41,7 +43,8 @@ export PATH=$PATH:$SHAKTITOOLS/riscv32/riscv32-unknown-elf/bin
 Running a hello world program
 -----------------------------
 Open a new file with name hello.c:
-      $ gedit hello.code
+
+$ gedit hello.code
 
 Use the following code to print hello world and to print cycles taken to print hello world:
 
@@ -65,11 +68,12 @@ void main() {
 }
 ```
 Compile the code using riscv64-unknown-elf-gcc compiler:
-      $ riscv64-unknown-elf-gcc hello.c -o hello.out
+
+$ riscv64-unknown-elf-gcc hello.c -o hello.out
 
 Simulate the executable using spike:
 
-      $ spike $(which pk) hello.out
+$ spike $(which pk) hello.out
 
 The output from the spike simulator:
 
