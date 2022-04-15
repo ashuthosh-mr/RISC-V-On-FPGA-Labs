@@ -20,5 +20,5 @@ This repository consists of the following:
 
 Contact
 -----
-Email: ashuthoshmr@pes.edu
+Email: ashuthoshmr@pes.edu <br/>
 Website: https://sites.google.com/view/ashuthosh/home
