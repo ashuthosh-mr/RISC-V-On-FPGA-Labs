@@ -1,13 +1,18 @@
-# RISC-V-On-FPGA-Labs
+# Labs
 This repository contains four labs:
 
-* Running a C code using Spike simulator
-URL: https://github.com/ashuthosh-mr/RISC-V-On-FPGA-Labs/tree/main/Labs/Lab1
+* Lab 1\
+Running a C code using Spike simulator\
+URL: https://github.com/ashuthosh-mr/RISC-V-On-FPGA-Labs/tree/main/Labs/Lab1\
 
-* Running a C code on Shakti RISC-V microprocessor
+* Lab 2\
+Running a C code on Shakti RISC-V microprocessor\
+URL: Coming soon!\
 
+* Lab 3\
+Packaging an IP for Shakti SoC to accelerate an application\
+URL: https://github.com/ashuthosh-mr/RISC-V-On-FPGA-Labs/tree/main/Labs/Lab3\
 
-* Packaging an IP for Shakti SoC to accelerate an application
-URL: https://github.com/ashuthosh-mr/RISC-V-On-FPGA-Labs/tree/main/Labs/Lab3
-
-* Running a C code on Shakti SoC that has our custom packaged IP
+* Lab 4\
+Running a C code on Shakti microprocessor, that has our custom packaged IP with the SoC\
+URL: Coming soon!\
