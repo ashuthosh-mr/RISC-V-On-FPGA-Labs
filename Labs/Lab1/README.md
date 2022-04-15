@@ -8,9 +8,11 @@ Requirements
 * Shakti RISC-V toolchain
 
 
-Dependences
+Dependencies
 -----------
-$ sudo apt-get install device-tree-compiler
+* Device tree compiler:
+
+    $ sudo apt-get install device-tree-compiler
 
 
 Download and install of Shakti RISC-V toolchain
@@ -64,7 +66,7 @@ void main() {
   start=read_cycles(); //cycle count at this line is registered in start
   printf("Hello World\n");
   end=read_cycles(); //cycle count at this line is register in end
-  printf("Cycles to print hello world is: %ld",end-start); //subtraction gives the cycle count between two lines
+  printf("Cycles to print hello world is: %lu",end-start); //subtraction gives the cycle count between two lines
 
 }
 ```
