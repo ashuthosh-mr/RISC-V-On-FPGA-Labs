@@ -70,7 +70,7 @@ void main() {
 ```
 Compile the code using riscv64-unknown-elf-gcc compiler:
 
-  $ riscv64-unknown-elf-gcc hello.c -o hello.out
+    $ riscv64-unknown-elf-gcc hello.c -o hello.out
 
 Simulate the executable using spike:
 
