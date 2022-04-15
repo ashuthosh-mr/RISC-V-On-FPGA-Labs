@@ -10,10 +10,10 @@ Requirements
 
 Dependencies
 -----------
-* Device tree compiler:
+Device tree compiler:
 
     $ sudo apt-get install device-tree-compiler  
-    
+
 
 
 Download and install of Shakti RISC-V toolchain
