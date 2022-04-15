@@ -2,7 +2,7 @@
 
 This repository consists of the following:
 
-* Project files (Vivado) for the Pinaka SoC with Shakti 32-bit microprocessor targeting Arty A7 boards (Arty A7-35(default) and A7-100)\
+* Project files (Vivado) for the Pinaka SoC with Shakti 32-bit microprocessor targeting Arty A7 boards (Arty A7-35(default) and A7-100) <br/>
 * Tutorial(Labs) that demonstrates:
   1. Running a C code using spike simulator and measure the clock cycles.
   2. Programming the SoC to the board using Vivado.
