@@ -1,5 +1,12 @@
 # RISC-V-On-FPGA-Labs
 
+![](https://static.wixstatic.com/media/cbade5_3163132011d84883993e56170c2a34ba~mv2.png/v1/crop/x_0,y_28,w_2084,h_2028/fill/w_334,h_326,al_c,usm_0.66_1.00_0.01,enc_auto/New%20Logo-01.png)
+<br/>
+
+This course was conducted to undergraduate students of Electronics Department at CHIPS Lab, PES University.
+
+<br/>
+
 This repository consists of the following:
 
 * Project files (Vivado) for the Pinaka SoC with Shakti 32-bit microprocessor targeting Arty A7 boards (Arty A7-35(default) and A7-100) <br/>
@@ -20,5 +27,5 @@ This repository consists of the following:
 
 Contact
 -----
-Email: ashuthoshmr@pes.edu <br/>
-Website: https://sites.google.com/view/ashuthosh/home
+Email: chips@pes.edu <br/>
+Website: https://www.chips.pes.edu/
