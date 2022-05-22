@@ -6,7 +6,7 @@
 
 <br/>
 
-This course was conducted to undergraduate students of electronics department at CHIPS Lab, PES University.
+This course was conducted for undergraduate students of electronics department at CHIPS Lab, PES University.
 
 <br/>
 
